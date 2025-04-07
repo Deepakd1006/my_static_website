@@ -88,3 +88,17 @@ body {
 .container::-webkit-scrollbar-track {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Glow Animation for Profile Image */
+@keyframes glow-pic {
+  0% {
+    box-shadow: 0 0 10px #00adb5;
+  }
+  100% {
+    box-shadow: 0 0 20px #00fff7;
+  }
+}
+
+.header img {
+  animation: glow-pic 2s infinite alternate;
+}
