@@ -1,1 +1,0 @@
-# my_static_website
